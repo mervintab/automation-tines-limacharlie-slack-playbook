@@ -5,7 +5,7 @@
 
 ## 📘 Overview
 
-This project is an implementation of MyDFIR's Cybersecurity SOAR-EDR Project. This project demonstrates how to automate endpoint containment using **Tines**, **LimaCharlie**, and **Slack**.  
+This project is an implementation of MyDFIR's ![Cybersecurity SOAR-EDR Project](https://www.youtube.com/watch?v=Gs1pYJfWv7k&t=2s). This project demonstrates how to automate endpoint containment using **Tines**, **LimaCharlie**, and **Slack**.  
 When a detection event is triggered in LimaCharlie, Tines automatically sends a Slack alert that allows an analyst to approve or deny isolation.  
 If approved, Tines calls the LimaCharlie API to isolate the affected sensor and verifies the isolation status.
 
