@@ -13,7 +13,7 @@ If approved, Tines calls the LimaCharlie API to isolate the affected sensor and 
 
 ## 🧩 Architecture
 
-![Workflow Diagram](docs/SOAR-EDR_Playbook-drawio.png)
+![Workflow Diagram](https://github.com/mervintab/automation-tines-limacharlie-slack-playbook/blob/main/docs/SOAR-EDR%20Playbook-drawio.png)
 
 ### **Workflow Overview**
 1. **LimaCharlie Detection** → Sends webhook to **Tines**  
