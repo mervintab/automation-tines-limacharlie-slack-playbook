@@ -1,0 +1,11 @@
+{
+  "detect": {
+    "routing": {
+      "sid": "93fc445c-e383-4117-a122-3d02aeb967b5",
+      "hostname": "soar-edr-pc002"
+    },
+    "event": {
+      "FILE_PATH": "C:\\Users\\Administrator\\Desktop\\LaZagne.exe"
+    }
+  }
+}
