@@ -5,7 +5,7 @@
 
 ## 📘 Overview
 
-This project demonstrates how to automate endpoint containment using **Tines**, **LimaCharlie**, and **Slack**.  
+This project is an implementation of MyDFIR's Cybersecurity SOAR-EDR Project. This project demonstrates how to automate endpoint containment using **Tines**, **LimaCharlie**, and **Slack**.  
 When a detection event is triggered in LimaCharlie, Tines automatically sends a Slack alert that allows an analyst to approve or deny isolation.  
 If approved, Tines calls the LimaCharlie API to isolate the affected sensor and verifies the isolation status.
 
@@ -84,4 +84,10 @@ When the analyst clicks the link in Slack, this opens the Page and pre-fills the
 ## 🧠 Example Detection Payload
 ![Lazagne Detction](config/lazagne_detection.json)
 
+## References
+**[MyDFIR's Cybersecurity SOAR EDR Project](https://www.youtube.com/watch?v=Gs1pYJfWv7k&t=2s)** — MyDFIR Youtube playlist referenced for this project. 
+**[LimaCharlie API Documentation](https://docs.limacharlie.io/)** — Official API reference for LimaCharlie automation, detections, and integrations.  
+**[Tines Official Docs](https://docs.tines.com/)** — Workflows, actions, and API configuration examples for Tines SOAR platform.  
+**[Slack Block Kit Builder](https://app.slack.com/block-kit-builder)** — Interactive visual builder for Slack message layouts.  
+**[SOAR Automation Lab Example (Medium)](https://medium.com/)** — Example walkthrough of a SOAR automation project integrating detection and response.
 
